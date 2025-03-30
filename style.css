@@ -1,0 +1,36 @@
+body {
+    font: inter, sans-serif;
+    font-size:  20px; /* Ukuran font utama pada tag <p></p> */
+    background-color: #5988FF; /* Warna latar belakang laman web */
+    color: #333333; /* Warna teks */ 
+}
+
+h1 {
+    color: #FD98FB; /* Warna tajuk (header)*/
+    font-size: 24px; /* Ukuran font tajuk (header) */
+    text-decoration-color: #FF0000;
+    font-size: 15px;
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+
+li {
+    font-weight: bold; /* Makes the text in list items bold */
+}
+
+@keyframes color-change {
+    0% {
+      color: orange;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: green;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
